@@ -1,5 +1,14 @@
 #/bin/bash
 
+if [ "$#" -ne 1 ]; then
+  echo "Bad number of arguments"
+  echo "Usage"
+  echo "./bash_push....sh root_git_dir"
+  echo "e.g."
+  echo "./bash_push....sh ~/github_repositories"
+  exit 1
+fi
+
 LOCAL_MAIN_GITHUB_DIR=$1
 
 for repository in $(find $LOCAL_MAIN_GITHUB_DIR -maxdepth 1 -type d)
