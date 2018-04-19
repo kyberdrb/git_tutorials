@@ -1,0 +1,30 @@
+Stiahnutie časti GitHub repozitára ako ZIP súbor
+
+-Vygenerujeme si autentifikačný token
+In the upper-right corner of any page, click your profile photo, then click Settings.
+
+Developer settingsIn the left sidebar, click Developer settings.
+
+Personal access tokensIn the left sidebar, click Personal access tokens.
+
+Generate new token buttonClick Generate new token.
+Token description fieldGive your token a descriptive name.
+Selecting token scopesSelect the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select repo.
+Generate token buttonClick Generate token.
+
+Newly created tokenClick
+to copy the token to your clipboard. For security reasons, after you navigate off the page, you will not be able to see the token again. 
+
+
+-Otvoríme si stránku
+
+  http://kinolien.github.io/gitzip/
+
+-Do poľa "Github API Access Token" zadáme vygenerovaný token.
+-Do poľa "GitHub repo root URL or sub-folder URL" zadáme URL súboru alebo adresára, ktorý chceme z repozitára stiahnuť.
+-Sťahovanie spustíme kliknutím na tlačidlo "Download".
+
+Zdroje:
+  https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+  https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/18194523#18194523
+  
