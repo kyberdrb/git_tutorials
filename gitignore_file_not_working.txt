@@ -1,6 +1,0 @@
-git rm -r --cached /path/to/repo
-git add -A
-git commit -m "fixed untracked files"
-
-Zdroje
-https://stackoverflow.com/questions/11451535/gitignore-is-not-working/11451731#11451731
